@@ -10,7 +10,7 @@ public class Translator {
     public static String one2three(String symbol) throws NotAnAA {
         String threeCode = "";
         for (int i = 0; i < ONE.length; i++) {
-            if (ONE[i].equals(symbol.toUpperCase())) {
+            if (ONE[i].equalsIgnoreCase(symbol)) {
                 threeCode = THREE[i];
             }
         }
