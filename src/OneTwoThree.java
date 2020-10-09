@@ -41,8 +41,6 @@ public class OneTwoThree extends JFrame {
                     out.setText(String.valueOf(notAnAA));
                 }
             }
-
         });
-
     }
 }
